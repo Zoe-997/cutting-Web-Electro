@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "$color-footer": expected selector or at-rule, was ": #222222;"
+        on line 15 of D:\xampp2\htdocs\tuananh\Web 1\css\style.scss
+
+10: 
+11: // khai bao bien dung chung
+12: $color-section: #eeeeee;
+13: $color-hover: #f2c557;
+14: $color-mainmenu: #445268
+15: $color-footer: #222222;
+16: $color-text-bold: #222222;
+17: $color-text-fuzzy: 888888;
+18: $color-star: #f3cd1e;
+19: $color-link: #2557aa
+20: $color-new: #2557aa;
+
+Backtrace:
+D:\xampp2\htdocs\tuananh\Web 1\css\style.scss:15
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$color-footer\": expected selector or at-rule, was \": #222222;\"\A         on line 15 of D:\xampp2\htdocs\tuananh\Web 1\css\style.scss\A \A 10: \A 11: // khai bao bien dung chung\A 12: $color-section: #eeeeee;\A 13: $color-hover: #f2c557;\A 14: $color-mainmenu: #445268\A 15: $color-footer: #222222;\A 16: $color-text-bold: #222222;\A 17: $color-text-fuzzy: 888888;\A 18: $color-star: #f3cd1e;\A 19: $color-link: #2557aa\A 20: $color-new: #2557aa;"; }

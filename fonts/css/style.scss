@@ -1,0 +1,36 @@
+body, html{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (min-width: 1200px){
+	.container{
+		max-width: 1170px !important;
+	}
+}
+
+// khai bao bien dung chung
+$color-section: #eeeeee;
+$color-hover: #f2c557;
+$color-mainmenu: #445268
+$color-footer: #222222;
+$color-text-bold: #222222;
+$color-text-fuzzy: 888888;
+$color-star: #f3cd1e;
+$color-link: #2557aa
+$color-new: #2557aa;
+$color-save: #e73535;
+$color-seller: #41ad00;
+$colỏ-white: white;
+$color-text-footer: #999999;
+$color-button: -webkit-linear-gradient(bottom, #f1c24d 0%, #f1c24d 7%, white 100%);
+
+// style for web
+
+.top{
+	position: relative;
+	img,.cover{
+		position: absolute;
+		top:0;
+		left: 0;
+	};
+}

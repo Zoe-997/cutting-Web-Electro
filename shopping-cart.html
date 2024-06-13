@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Shopping Cart Page</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- Link icon -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- font family -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=vietnamese" rel="stylesheet">
+	<!-- lin slick slider -->
+	<link rel="stylesheet" href="plugin/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugin/slick/slick.css">
+	<!-- link css -->
+	<link rel="stylesheet" type="text/css" href="style/web_1/page.css">
+</head>
+<body>
+<div class="quick-view"></div>
+<!-- end quick view -->
+
+<div class="top d-flex justify-content-center">
+	<a href="#"><img src="images/header/banner-top.jpg"></a>
+	<div class="container text-right cover">
+		<a href="javascript:void(0)" class="close-banner"><i class="fa fa-times-circle"></i></a>
+	</div>	
+</div>
+<!--  end top -->
+
+<header>
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-lg-12 top-left">
+					<span class="welcome">Default welcome msg!</span>
+					<span class="phone-num"><i class="fa fa-phone"></i> <a href="tel:0801234567891">(080)123 4567 891</a></span>
+					<span class="control-money inside">
+						<div class="command-button">Dollar (US)<i class="fa fa-caret-down"></i></div>
+						<ul class="list-top money drop-down">
+							<li><a href="#">Pond (GBP)</a></li>
+							<li><a href="#">Euro (EUR)</a></li>
+							<li><a href="#">Dollar (USD)</a></li>
+						</ul>
+					</span>		
+					<span class="control-language inside">
+						<div class="command-button">Language: English <i class="fa fa-caret-down"></i></div>
+						<ul class="list-top language drop-down">
+							<li><a href="#"><img src="images/flat/hu.gif">Hungary</a></li>
+							<li><a href="#"><img src="images/flat/german.jpg">German</a></li>
+							<li><a href="#"><img src="images/flat/french.jpg">French</a></li>
+							<li><a href="#"><img src="images/flat/vn.gif">VietNammese</a></li>
+						</ul>
+					</span>				
+				</div>
+				<div class="col-xl-5 col-lg-12 text-right top-right">
+					<ul>
+						<li><a href="shopping-cart.html">Order Tracking</a></li>
+						<li><a href="checkout-page.html">Checkout</a></li>
+						<li><a href="contact_us-page.html">Store Localtion</a></li>
+						<li><a href="aboutus.html">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>			
+	<!-- end start header -->
+	<div class="header-content">
+		<div class="container">
+			<div class="row">
+				<div class="content-left">
+					<div class="control-main-content"><i class="fa fa-search" ></i></div>
+					<a href="#"><img src="images/header/logo.png"></a>
+					<div class="control-menu-mobile"><i class="fa fa-bars"></i></div>
+				</div>
+				<!-- end left -->
+				<div class="main-content">
+					<form>
+						<div class="search">
+							<select style="background-image: url(images/header/font-awesome_4-7-0_caret-down_13_0_888888_none.png);">
+								<option>All Categories</option>
+								<option>Demo 1</option>
+								<option>Demo 2</option>
+								<option>Demo 3</option>
+								<option>Demo 4</option>
+								<option>Demo 5</option>
+							</select>
+							<input type="text" name="txtsearch" placeholder="Enter keywords to search...">
+							<button class="btn-search"><i class="fa fa-search"></i></button>
+						</div>
+					</form>
+				</div>
+				<!-- end center -->
+				<div class="content-right">
+					<div class="el">
+						<span class="on-signin on">
+							<i class="i fa fa-user"></i>
+							<div class="text">
+								<span class="big-text">Account</span>
+								<span class="small-text">Hello! Sign in</span>
+							</div>
+						</span>
+						<div class="list-window _on-signin">
+							<div class="header-sign-in">
+								<a href="login.html"><button class="btn btn-block">Sign in</button></a>
+								New customer! Start here.
+							</div>
+							<div class="footer-sign-in">
+								<ul>
+									<li><a href="#">Your Account</a></li>
+									<li><a href="#">Your Order</a></li>
+									<li><a href="#">Your Wishlist</a></li>
+								</ul>
+							</div>
+						</div>						
+					</div>
+					<div class="el">
+						<span class="on">
+							<i class="i fa fa-heart"></i>
+							<div class="text">
+								<span class="big-text">Wishlist</span>
+								<span class="small-text">3 items</span>
+							</div>
+						</span>
+					</div>
+					<div class="el">
+						<span class="on-shoppingcard on">
+							<i class="i fa fa-shopping-basket">
+							<div class="number">3</div>
+							</i>
+							<div class="text">
+								<span class="big-text">Cart: </span>
+								<span class="small-text">$350.00</span>
+							</div>
+						</span>
+						<!-- <div class="list-window _2 _on-shoppingcard">
+							<p class="count">Your cart (0)</p>
+							<div class="shopping-cart">	<p>Your shopping cart is currently empty</p></div>
+							<div class="total">
+								<div class="total-price">Subtotal:<div class="price">$0.00</div>	</div>
+								<button class="checkout">Checkout</button>
+							</div>					
+							<div class="end text-center"><b>$99</b> Capped Delivery<br> Fill your cart & pay no more than $99 dellivery </div>
+						</div> -->
+						<div class="list-window _on-shoppingcard have-product">
+							<p class="count">Your cart (2)</p>
+							<div class="shopping-cart">	
+								<div class="slider">
+									<div class="product-item cart">
+										<div class="product-image">
+											<a href="#"><img src="images/product-and-service/sp10.png"></a>
+										</div>
+										<div class="product-detail">
+											<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+											<div class="product-review">
+												<span class="star-review">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</span>
+												<span class="review">(05 review)</span>
+											</div>					
+											<h3 class="product-name">
+												<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+											</h3>	
+											<div class="delete">
+												<div class="count-product">Qty: 1</div>
+												<i class="fa fa-times"></i>
+											</div>	
+										</div>
+										
+									</div>
+								</div>
+								<div class="slider">
+									<div class="product-item cart">
+										<div class="product-image">
+											<a href="#"><img src="images/product-and-service/sp8.png"></a>
+										</div>
+										<div class="product-detail">
+											<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+											<div class="product-review">
+												<span class="star-review">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</span>
+												<span class="review">(05 review)</span>
+											</div>					
+											<h3 class="product-name">
+												<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+											</h3>	
+											<div class="delete">
+												<div class="count-product">Qty: 1</div>
+												<i class="fa fa-times"></i>
+											</div>	
+										</div>
+										
+									</div>
+								</div>
+								<div class="slider">
+									<div class="product-item cart">
+										<div class="product-image">
+											<a href="#"><img src="images/product-and-service/sp10.png"></a>
+										</div>
+										<div class="product-detail">
+											<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+											<div class="product-review">
+												<span class="star-review">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</span>
+												<span class="review">(05 review)</span>
+											</div>					
+											<h3 class="product-name">
+												<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+											</h3>	
+											<div class="delete">
+												<div class="count-product">Qty: 1</div>
+												<i class="fa fa-times"></i>
+											</div>	
+										</div>
+										
+									</div>
+								</div>
+								<div class="slider">
+									<div class="product-item cart">
+										<div class="product-image">
+											<a href="#"><img src="images/product-and-service/sp8.png"></a>
+										</div>
+										<div class="product-detail">
+											<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+											<div class="product-review">
+												<span class="star-review">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</span>
+												<span class="review">(05 review)</span>
+											</div>					
+											<h3 class="product-name">
+												<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+											</h3>	
+											<div class="delete">
+												<div class="count-product">Qty: 1</div>
+												<i class="fa fa-times"></i>
+											</div>	
+										</div>
+										
+									</div>
+								</div>
+							</div>	
+							<div class="total">
+								<div class="total-price">Subtotal:<div class="price">$500.00</div>	</div>
+								<div class="cover-checkout">
+									<a href="checkout-page.html"><button class="checkout">Checkout</button></a>
+									<a href="shopping-cart.html"><button class="checkout">Shopping cart</button></a>
+								</div>
+							</div>					
+							<div class="end text-center"><b>$99</b> Capped Delivery<br> Fill your cart & pay no more than $99 dellivery </div>
+						</div> 
+					</div>
+				</div>
+				<!-- end right -->
+			</div>
+		</div>
+	</div>
+	<!-- end center header -->
+	<div class="header-bottom fixed-main-menu">
+		<div class="container">
+			<div class="row">
+				<div class="bottom-left control-extramenu inside">
+					<div class="onclick command-button">
+						<i class="fa fa-bars"></i>
+						<span>All Categories<i class="fa fa-sort-down"></i></span>
+					</div>
+					<div class="cover-extra-menu drop-down">
+						<ul class="extra-menu">
+							<li><a href="#">Virtual Reality</a></li>
+							<li><a href="#">Gadgets</a></li>
+							<li><a href="#">Computers & Laptops</a><i class="fa fa-angle-right"></i>
+								<div class="cover-child-extramenu" style="width: 740px;background-image: url(images/header/backgrounf-child-tab.png)">
+									<ul class="childmenu child-1">
+										<li><a href="#">Video game & Consoles</a></li>
+										<li><a href="#">Laptops, Desktops & Monitors</a></li>
+										<li><a href="#">Printers & Ink</a></li>
+										<li><a href="#">Computer Accessories</a></li>
+										<li><a href="#">Software</a></li>
+										<li><a href="#">Macbook Air</a></li>
+										<li><a href="#">Laptop Pro</a></li>
+									</ul>
+									<ul class="childmenu child-1">
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Phone Batteries</a></li>
+										<li><a href="#">Phone Charger</a></li>
+										<li><a href="#">Phone Screen</a></li>
+										<li><a href="#">Head Set</a></li>
+										<li><a href="#">Software</a></li>
+									</ul>
+									<div class="bottom-child-extramenu">
+										<h3>Reality Has changed</h3>
+										<h2>Sapphire Vr-Ready</h2>
+										<h1>Graphics Cards</h1>
+										<button>Shop Now</button>
+									</div>
+								</div>
+							</li>
+							<!-- end li -->
+							<li><a href="#">Video Games & Consoles</a><i class="fa fa-angle-right"></i>
+								<div class="cover-child-extramenu" style="width: 760px;background-image: url(images/header/background-child-tab-2.png)">
+									<ul class="childmenu child-2">
+										<li><a href="#">Movies, TV, and Audios</a></li>
+										<li><a href="#">TV & Video</a></li>
+										<li><a href="#">Home Audio & Theater</a></li>
+										<li><a href="#">Fire TV Stick</a></li>
+										<li><a href="#">Fire TV + HD Antenna Bundle</a></li>
+										<li><a href="#">Introducing Fire TV Edition</a></li>
+										<li><a href="#">Car Electronics</a></li>
+										<li><a href="#">Mucsical Instruments</a></li>
+									</ul>
+									<ul class="childmenu child-2">
+										<li><a href="#"> Watch and Play</a></li>
+										<li><a href="#"> Prime Video</a></li>
+										<li><a href="#"> Digital Video</a></li>
+										<li><a href="#"> Fire TV Apps & Channels</a></li>
+										<li><a href="#"> Games gor Fire TV</a></li>
+										<li><a href="#"> Prime Photos</a></li>
+									</ul>									
+									<ul class="childmenu child-2">
+										<li><a href="#"> Stream Music</a></li>
+										<li><a href="#"> Music Unlimited</a></li>
+										<li><a href="#"> Price Music</a></li>
+										<li><a href="#"> Open Web Player</a></li>
+										<li><a href="#"> CDs & Vinyl</a></li>
+										<li><a href="#"> Download Store</a></li>
+									</ul>
+									<div class="bottom-child-extramenu">
+										<span>We sell Battery<br>Charger, Smartphone<br>Speakers etc.</span>
+										<button>Buy Accessories</button>
+									</div>
+								</div>
+							</li>
+							<!-- end li -->
+							<li><a href="#">TV & Audio</a><i class="fa fa-angle-right"></i>
+								<div class="cover-child-extramenu" style="width: 815px;background-image: url(images/header/background-child-tab-3.png)">
+									<ul class="childmenu child-3">
+										<li><a href="#">Electronics </a></li>
+										<li><a href="#">TV & Video</a></li>
+										<li><a href="#">Home Audio & Theater</a></li>
+										<li><a href="#">Camera, Photo & Video</a></li>
+										<li><a href="#">Cell Phone & Accessories</a></li>
+										<li><a href="#">Bluetooth & Wireless</a></li>
+										<li><a href="#">Car Electronics</a></li>
+										<li><a href="#">Mucsical Instruments</a></li>
+										
+									</ul>
+									<ul class="childmenu child-3">
+										<li><a href="#"> Laptop & Computer</a></li>
+										<li><a href="#">Computer & Laptop</a></li>
+										<li><a href="#">Monitors</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Networking</a></li>
+										<li><a href="#">Drives & Storage</a></li>
+										<li><a href="#">Software</a></li>
+										<li><a href="#">Printer & Ink</a></li>
+									</ul>									
+									<ul class="childmenu child-2">
+										<li><a href="#"> Office</a></li>
+										<li><a href="#">Monitors</a></li>
+										<li><a href="#">Accessories</a></li>
+										<li><a href="#">Networking</a></li>
+										<li><a href="#">Drives & Storage</a></li>
+										<li><a href="#">Software</a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+									<div class="bottom-child-extramenu">
+										<span>Electronics Gift Guide</span>
+										<p>Tech they’re sure to love</p>
+										<button>Shop Now</button>
+									</div>
+								</div>
+							</li>
+							<!-- end li -->
+							<li><a href="#">Smartphone & Tablets</a></li>
+							<li><a href="#">Graphics & Multimedia</a></li>
+							<li><a href="#">Cameras & Photo</a></li>
+							<li><a href="#">Printer & Ink</a></li>
+							<li><a href="#">Techniques</a></li>
+							<li><a href="#">Electronics & Appliances</a></li>
+						</ul>
+						<span class="load-more">All Categories <i class="fa fa-caret-down"></i></span>
+						<ul class="extra-menu extra-menu-second">
+							<li><a href="#">Virtual Reality</a></li>
+							<li><a href="#">Gadgets</a></li>
+						</ul>
+						<span class="load-more close-loadmore">Close <i class="fa fa-caret-up"></i></span>
+					</div>
+				</div>
+				<!-- end left -->
+				<div class="main-bottom">
+					<div class="main-menu">
+						<ul class="menu-main">
+							<li class="active-page"><a href="#">Home </a></li>
+							<li class="demos"><a href="#">Demos<i class="fa fa-angle-down"></i></a>
+								<ul class="child-menu-demo">
+									<li><a href="index_1.html">Demo 1</a></li>
+									<li><a href="index_2.html">Demo 2</a></li>
+									<li><a href="index_3.html">Demo 3</a></li>
+									<li><a href="index_4.html">Demo 4</a></li>
+									<li><a href="index_5.html">Demo 5</a></li>
+									<li><a href="index_6.html">Demo 6</a></li>
+									<li><a href="index_7.html">Demo 7</a></li>
+									<li><a href="index_8.html">Demo 8</a></li>
+									<li><a href="index_9.html">Demo 9</a></li>
+									<li><a href="index_10.html">Demo 10</a></li>
+									<li><a href="index_11.html">Demo 11</a></li>
+									<li><a href="index_12.html">Demo 12</a></li>
+								</ul>
+							</li>
+							<!-- end demos -->
+							<li><a href="category-grid.html">Deals</a></li>
+							<li class="mega-menu"><a href="#">New Arrival<i class="fa fa-angle-down"></i></a>
+								<div class="new-arrival-content">
+									<ul class="list-child-menu accordion">
+										<li>
+											<a href="#">Smartphone & Tablet</a>
+											<i class="fa fa-angle-down show-option"></i>
+											<ul class="childmenu fretboard">
+												<li><a href="#">Accessories</a></li>
+												<li><a href="#">Phone Batteries</a></li>
+												<li><a href="#">Phone Charger</a></li>
+												<li><a href="#">Phone Screen</a></li>
+												<li><a href="#">Head Set</a></li>
+												<li><a href="#">Software</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">TV & Audios</a>
+											<i class="fa fa-angle-down show-option"></i>
+											<ul class="childmenu fretboard">
+												<li><a href="#">Headphones</a></li>
+												<li><a href="#">HD led TV</a></li>
+												<li><a href="#">Accessories</a></li>
+												<li><a href="#">Software/a></li>
+												<li><a href="#">Macbook</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">video Game & consoles</a>
+											<i class="fa fa-angle-down show-option"></i>
+											<ul class="childmenu fretboard">
+												<li><a href="#">Desktops & Monitors</a></li>
+												<li><a href="#">Printers & Ink</a></li>
+												<li><a href="#">Computer Accessories</a></li>
+												<li><a href="#">Software</a></li>
+												<li><a href="#">Macbook</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Computer & LAptop</a>
+											<i class="fa fa-angle-down show-option"></i>
+											<ul class="childmenu fretboard">
+												<li><a href="#">Laptops, Desktops & Monitors</a></li>
+												<li><a href="#">Printers & Ink</a></li>
+												<li><a href="#">Computer Accessories</a></li>
+												<li><a href="#">Software</a></li>
+												<li><a href="#">Macbook Air</a></li>
+												<li><a href="#">Laptop Pro</a></li>
+											</ul>
+										</li>
+									</ul>
+									<div class="bottom-childmenu-newarrival">
+										<a href="#"><img src="images/header/bottomchildmenu.png" alt=""></a>
+										<a href="#"><img src="images/header/bottom-childmenu-2.png" alt=""></a>
+									</div>
+								</div>
+							</li>
+							<!-- end arrival -->
+							<li><a href="contact_us-page.html">Contact Us</a></li>
+							<li><a href="ourblog.html">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end center -->
+				<div class="bottom-right">
+					<ul>
+						<li><a href="#">Special Offer!</a></li>
+						<li><a href="#">Buy Theme!</a></li>
+					</ul>
+				</div>
+				<!-- end right -->
+			</div>
+		</div>
+	</div>
+	<!-- end en header -->
+</header>
+<!-- end header -->
+
+<section class="page-content">
+	<div class="container">
+		<div class="path">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li>shopping cart</li>
+			</ul>
+		</div>
+		<div class="shopping-cart">
+			<table class="cart">
+				<tbody>
+					<tr class="curent-title">
+						<th> Products Name </th>
+						<th> Price </th>
+						<th> Quantity: </th>
+						<th> Total </th>
+						<th style="font-size: 0;"> Close </th>
+					</tr>
+					<tr>
+						<td class="col-products-name">
+							<div class="product-item list">
+								<div class="product-image">
+									<a href="#"><img src="images/product-and-service/sp6.png"></a>
+								</div>
+								<div class="product-detail">
+									<h3 class="product-name">
+										<a href="#">Dell UltraSharp 27 IPS Monitor U2715H Unboxing Review</a>
+									</h3>
+								</div>
+							</div>
+						</td>
+						<td class="col-price">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="col-quantity">
+							<div class="quantity">
+							  	<input type="number" min="1" max="999999999" step="1" value="1" class="number">
+							</div>
+						</td>
+						<td class="col-total">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="btn-close"><i class="fa fa-times-circle"></i></td>
+					</tr>
+					<tr>
+						<td class="col-products-name">
+							<div class="product-item list">
+								<div class="product-image">
+									<a href="#"><img src="images/product-and-service/sp4.png"></a>
+								</div>
+								<div class="product-detail">
+									<h3 class="product-name">
+										<a href="#">Dell UltraSharp 27 IPS Monitor U2715H Unboxing Review</a>
+									</h3>
+								</div>
+							</div>
+						</td>
+						<td class="col-price">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="col-quantity">
+							<div class="quantity">
+							  	<input type="number" min="1" max="999999999" step="1" value="1" class="number">
+							</div>
+						</td>
+						<td class="col-total">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="btn-close"><i class="fa fa-times-circle"></i></td>
+					</tr>
+					<tr>
+						<td class="col-products-name">
+							<div class="product-item list">
+								<div class="product-image">
+									<a href="#"><img src="images/product-and-service/sp5.png"></a>
+								</div>
+								<div class="product-detail">
+									<h3 class="product-name">
+										<a href="#">Dell UltraSharp 27 IPS Monitor U2715H Unboxing Review</a>
+									</h3>
+								</div>
+							</div>
+						</td>
+						<td class="col-price">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="col-quantity">
+							<div class="quantity">
+							  	<input type="number" min="1" max="999999999" step="1" value="1" class="number">
+							</div>
+						</td>
+						<td class="col-total">
+							<span class="price-box"><span class="price">$250<small>.99</small></span></span>
+						</td>
+						<td class="btn-close"><i class="fa fa-times-circle"></i></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<form class="order-summary">
+			<h4 class="order-summary-title">Order Summary</h4>
+			<div class="right-affix">
+				<div class="each-row">
+					<span>Subtotal</span>
+					<strong>$2 268.00</strong>
+				</div>
+				<div class="ship-fee">
+					<span>Shipping</span>
+					<strong>Free Shipping</strong>
+				</div>
+				<div class="amount-box">
+					<span>Total</span>
+					<strong style="font-size: 16px;">$2 268.00</strong>
+				</div>
+				<div class="choose-method">
+					<div class="check-box">
+						<input type="checkbox" name="cb-code" value="" class="checked"><span>I have promo code</span>
+						<div class="form-hide">
+							<div class="enter-code">
+								<input type="text" name="txt-code" placeholder="Enter your code" class="input-code" required="required">
+								<button name="sub-code" class="submit-code"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="btn btn-block btn-A">Check out</button>
+				<a href="#" class="link-continue">Continue Shopping  <i class="fa fa-arrow-circle-right"></i></a>
+				<button class="btn btn-block btn-CU">Clear Shopping Cart</button>
+				<button class="btn btn-block btn-CU">Update Shopping Cart</button>
+			</form>
+		</div>
+	</div>
+</section>
+<!-- emd grid page -->
+
+<section class="mostview-product">
+	<div class="container">
+		<div class="magic-tabs">
+			<h3 class="title">Most viewed Products</h3>
+		</div>
+		<div class="product-slider autoplay"
+			data-dots='false'
+			data-infinite="true"
+			data-speed="300"
+			data-autoplay="true"
+			data-slides-To-Show="3"
+			data-slides-To-Scroll="1"
+			data-responsive= '[{"breakpoint": 1200, "settings": {"slidesToShow": 2}}, {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 768, "settings": {"slidesToShow": 1}}]'>
+			<div class="item">
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp4.png"></a>
+							<div class="sticker-box">
+								<span class="sticker new">New</span>				
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp3.png"></a>
+							<div class="sticker-box">
+								<span class="sticker bestsell">Bestseller</span>				
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+			</div>
+			<div class="item">
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp2.png"></a>
+							<div class="sticker-box">
+								<span class="sticker save">Save 50%</span>			
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp1.png"></a>
+							<div class="sticker-box">
+								<span class="sticker new">New</span>
+								<span class="sticker save">Save 50%</span>				
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+			</div>
+			<div class="item">
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp10.png"></a>
+							<div class="sticker-box">
+								<span class="sticker new">New</span>
+								<span class="sticker bestsell">Bestseller</span>				
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+				<div class="_slider">
+					<div class="product-item list">
+						<div class="product-image">
+							<a href="#"><img src="images/product-and-service/sp9.png"></a>
+							<div class="sticker-box">
+								<span class="sticker bestsell">Bestseller</span>				
+							</div>
+						</div>							
+						<div class="product-detail">
+							<div class="price-box"><span class="price">$250<small>.99</small></span><span class="old-price">$500.00</span></div> 
+							<div class="product-review">
+								<span class="star-review">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</span>
+								<span class="review">(05 review)</span>
+							</div>								
+							<h3 class="product-name">
+								<a href="#">Picture of α5000 E-mount Camera with APS-C Sensor</a>
+							</h3>	
+							<div class="product-action">
+								<button class="action cart"><i class="fa fa-shopping-basket"></i></button>
+								<button class="action wishlist"><i class="fa fa-heart"></i></button>
+								<button class="action compare"><i class="fa fa-retweet"></i></button>
+							</div>			
+						</div>
+						<!-- end product detail -->
+					</div>
+				</div>
+				<!-- end _1slider -->
+			</div>
+		</div>	
+	</div>
+</section>
+<!-- end content 6 -->
+
+<section class="brand">
+	<div class="container">
+		<div class="slider-logo autoplay"
+			data-dots='false'
+			data-infinite="true"
+			data-speed="300"
+			data-autoplay="true"
+			data-slides-To-Show="5"
+			data-slides-To-Scroll="3"
+			data-space="15"
+			data-responsive= '[{"breakpoint": 1024, "settings": {"slidesToShow": 4}}, {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 641, "settings": {"slidesToShow": 3}}, {"breakpoint": 481, "settings": {"slidesToShow": 2}}, {"breakpoint": 361, "settings": {"slidesToShow": 1}}]'>
+			<a href="#"><img src="images/branch-slider/brand.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand1_1.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand2_2.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand3_1.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand4_1.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand1_1.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand2_2.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand3_1.jpg"></a>
+			<a href="#"><img src="images/branch-slider/brand4_1.jpg"></a>
+		</div>
+	</div>
+</section>
+<!-- end content 7 -->
+
+<footer>
+	<div class="footer-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-6 col-md-7 col-12 col-footer">
+					<p class="title">Contact Details</p>
+					<ul class="list-contact">
+						<li> <i class="fa fa-map-marker"></i> <div class="contact">45 Grand Central Terminal New York,NY 1017 United State USA</div></li>
+						<li> <i class="fa fa-phone"></i> <div class="contact">(+123) 456 789 - (+204) 666 888</div></li>
+						<li> <i class="fa fa-envelope"></i> <div class="contact">contact@yourcompany.com</div></li>
+						<li> <i class="fa fa-clock-o"></i><div class="contact"> Mon-Sat 9:00pm - 5:00pm Sun:Closed</div></li>
+					</ul>
+					<ul class="list-icon">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-5 col-12 col-footer">
+					<p class="title">CUSTOMER</p>
+					<ul class="list-service">
+						<li><a href="#">Shipping & Returns</a></li>
+						<li><a href="#">Secure Shopping</a></li>
+						<li><a href="#">Order Status</li>
+						<li><a href="#">International Shipping</a></li>
+						<li><a href="#">Affiliates</a></li>
+					</ul>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-5 col-12 col-footer">
+					<p class="title">INFORMATION</p>
+					<ul class="list-service">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Orders and Returns</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-7 col-12 col-footer">
+					<p class="title">SUBSCRIBE OUR NEWSLETTER</p>
+					<p class="saleoff">Get <strong>25% Off</strong> first purchase!</p>
+					<form class="sub">
+						<input type="text" name="" placeholder="Your email address here...">
+						<button>Subscribe!</button>
+					</form>
+					<p class="title">Download Our App</p>
+					<div class="link-img">
+						<A href="#"><img src="images/footer/google.png"></A>
+						<a href="#"><img src="images/footer/ggplay.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="footer-menu-box">
+				<ul class="footer-menu-list">
+					<li><a href="#">Digital Group</a></li>
+					<li><a href="#">Web Marketplace </a></li>
+					<li><a href="#">Digital.com</a></li>
+					<li><a href="#">Juhuasuan</a></li>
+					<li><a href="#">AliExpress</a></li>
+					<li><a href="#">Suppermarket</a></li>
+					<li><a href="#">1688.com</a></li>
+					<li><a href="#">Alimama</a></li>
+					<li><a href="#">YunOS</a></li>
+					<li><a href="#">AliTelecom</a></li>
+					<li><a href="#">Autonavi</a></li>
+					<li><a href="#">UCWeb</a></li>
+					<li><a href="#">Umeng</a></li>
+					<li><a href="#">Digital Expo</a></li>
+					<li><a href="#">Onetouch</a></li>
+					<li><a href="#">Showroom</a></li>
+					<li><a href="#">Country Search</a></li>
+					<li><a href="#">Suppliers</a></li>
+					<li><a href="#">Digital save</a></li>
+					<li><a href="#">Affiliate</a></li>
+					<li><a href="#">Ding Talk</a></li>
+					<li><a href="#">Alipay</a></li>
+					<li><a href="#">Lazada</a></li>
+				</ul>
+			</div>			
+		</div>
+	</div>	
+	<div class="footer-end">
+		<div class="container">
+			<div class="row d-flex justify-content-between">
+				<div class="col-12 col-lg-6 bottom-left">
+					<p class="text-left">Copyright © 2019 <a href="#">Expert</a> Magento, Inc. All rights reserved.</p>
+				</div>
+				<div class="col-12 col-lg-6 bottom-right">
+					<p class="text-right"><a href="#"><img src="images/footer/img end.png"></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- end footer -->
+
+<span class="up"><i class="fa fa-chevron-up"></i></span>
+<!-- end  -->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- load slick slider -->
+	<script type="text/javascript" src="plugin/slick/slick.min.js"></script>
+	<!-- Load js -->
+	<script type="text/javascript" src="js/alothemes.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
